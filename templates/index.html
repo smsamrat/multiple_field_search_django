@@ -8,7 +8,8 @@
 </head>
 <body>
     <center>
-        <h1>multiple field search</h1>
+        <h1 style="color:green;">Multiple Field Search</h1>
+        <p style="color:red;"> You should be select occapation and select one option from male or famale</p>
         <hr>
         <form action="" method="post">
             {% csrf_token %}
@@ -22,7 +23,7 @@
                 <option>hr</option>
                 <hr>
             </select>
-            <input type="submit" value="search">
+            <input type="submit" value="search"><br/><br/>
             <table border="1">
                 <tr>
                     <td>id</td>
